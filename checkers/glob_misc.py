@@ -1,0 +1,36 @@
+import pygame
+
+pygame.init()
+
+# WINDOW BEHAVIOURS
+WIDTH_HEIGHT = 800
+ROW_COL = 8
+SQR_DIM = WIDTH_HEIGHT // ROW_COL
+
+# TIME BEHAVIOURS
+FRAMES = 30
+TIME_DELAY = 1000
+
+# COLOURS
+RED = (255, 0, 0)
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+GREY = (128, 128, 128)
+GOLD = (212, 175, 55)
+BROWN = (165, 42, 42)
+CREAM = (255, 253, 208)
+TILE_BACKGROUND = BROWN
+TILE_ALTERNATE = CREAM
+
+# SHAPE BEHAVIOURS
+LINE_WIDTH = 10
+
+# FONTS
+FONT_PATH = "font/LexendDeca.ttf"
+XL_FONT = pygame.font.Font(FONT_PATH, 100)
+L_FONT = pygame.font.Font(FONT_PATH, 75)
+M_FONT = pygame.font.Font(FONT_PATH, 50)
+S_FONT = pygame.font.Font(FONT_PATH, 25)
+XS_FONT = pygame.font.Font(FONT_PATH, 15)
