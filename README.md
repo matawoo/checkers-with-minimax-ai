@@ -1,5 +1,5 @@
 # checkers-game-with-minimax
-Checkers Game written in Python using an AI opponent based on the Minimax Algorithm
+Checkers Game written in Python using an AI opponent based on the Minimax Algorithm. This project was originally created for a submission on a module that focused on AI as part of the University of Sussex degree of Computer Science and Artifical Intelegence. The task of the coursework was to create a checkers game from scratch using Python and PyGame. The AI component is realised through an opponent using the MiniMax algortithm as well as a tool that predicts the best move for the player using the same algorithm. The weighting of the rewards for the AI were left up to the students, so I came up with a few simple algorithms to experiment with agressive AI, smart AI and "fun" AI.
 
 # Required Packages
 The following packages are required to run the game.
